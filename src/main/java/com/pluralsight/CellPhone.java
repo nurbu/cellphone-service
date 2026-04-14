@@ -15,5 +15,46 @@ public class CellPhone {
         owner = "";
     }
 
-    
+    // Getters and Setters
+    public void setSerialNumber(int newSerialNumber) {
+        serialNumber = newSerialNumber;
+    }
+
+    public int getSerialNumber() {
+        return serialNumber;
+    }
+
+    public void setModel(String newModel) {
+        model = newModel;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setCarrier(String newCarrier) {
+        carrier = newCarrier;
+    }
+
+    public String getCarrier() {
+        return carrier;
+    }
+
+    public void setPhoneNumber(String newPhoneNumber) {
+        phoneNumber = newPhoneNumber;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setOwner(String newOwner) {
+        owner = newOwner;
+    }
+
+    public String getOwner() {
+        return owner;
+    }
+
+
 }
