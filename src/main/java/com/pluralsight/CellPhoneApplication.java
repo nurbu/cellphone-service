@@ -47,5 +47,7 @@ public class CellPhoneApplication {
         System.out.println(newPhone.getPhoneNumber());
         System.out.println(newPhone.getOwner());
 
+        scanner.close();
+
     }
 }
